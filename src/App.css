@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+ul{
+    margin-right: 60px;
+}
+
+.nav-item{
+    display: inline;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo{
+    margin-left: 40px;
+}
+
+.landing{
+    margin: 70px 0 0 40px;
+    width: 35%;
+}
+
+.hero,.hero-text{
+    width: 100%;
+}
+
+.hero-text{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.input{
+    width: 350px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+Button{
+    width: 350px;
+    height: 40px;
+}
+
+.landing-page{
+    display:flex;
+}
+
+.hero-image{
+    width: 65%;
+}
+
+.hero-image img{
+    height: 750px;
+    margin-left: 30px;
+}
+
+.content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 169);
+    color: white;
+}
+
+.tutorials{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 -150px 0;
+}
+
+.tutorials iframe{
+    width: 699px;
+    height: 391px;
+    border: 3px solid blue;
+}
+
+.titletext {
+    width: 100%;
+    text-align: center;
+    margin: 200px 0 50px 0;
+}
+
+/* .about-title{
+    font-size: 28px;
+} */
+
+.about-titletext{
+    font-size: 22px;
+}
+
+.principles{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.principleOne,.principleTwo,.principleThree,.principleFour{
+    width: 35%;
+    height: 50px;
+    float: left;
+    text-align: left;
+}
+
+.principleOne,.principleThree{
+    padding-left: 10%;
+}
+.principleTwo,.principleFour{
+    padding-right: 10%;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 82vh;
+    background-color: #f4f4f4;
+    /* border-right: 1px solid gray; */
+    box-shadow: 0 3px 10px gray;
+}
+
+.sidebar a{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 18px;
+    margin-top: 30px;
+
+    padding: 10px 0 10px 0;
+    border-radius: 20px;
+    text-decoration: none;
+    background: red;
+    text-align: center;
+    box-shadow: 0 5px 10px gray;
+}
+
+.sidebar Button{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px gray;
+}
+
+.expenses,.dashboard,.income,.profile,.reports{
+    display: flex;
+    /* background: blue; */
+}
+
+.viewplane{
+    width: 85vw;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.tiles{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 62vh;
+}
+
+.accountBalance,.accountTrend,.accountTransaction{
+    width: 28%;
+    background-color: aqua;
+    box-shadow: 0 3px 10px gray;
+}
