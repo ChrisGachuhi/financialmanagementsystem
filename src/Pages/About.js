@@ -1,10 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 function About() {
   return (
     <div className='About'>
+        <Navbar />
         
         <div className="tutorials">
             {/* <iframe src="https://www.youtube.com/embed/C7TRDzRmt1w?color=white&rel=0&enablejsapi=1&origin=https%3A%2F%2Fwww.waveapps.com&widgetid=1" frameborder="0"></iframe> */}

@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Landing from './Pages/Landing';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
@@ -20,7 +20,7 @@ function App() {
     <div className="App">
 
       <BrowserRouter>
-      <Navbar />
+      {/* <Navbar /> */}
         <Routes>
           <Route path='/' element={< Landing />}/>
           <Route path='/about' element={< About />}/>
